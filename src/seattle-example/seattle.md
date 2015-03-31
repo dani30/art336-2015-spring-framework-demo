@@ -13,8 +13,8 @@ Seattle has a noteworthy musical history. From 1918 to 1951, there were nearly t
 Space Needle
 http://www.spaceneedle.com/home/
 
-Lake Union
-http://www.discoverslu.com/
+Seattle Monorail
+http://www.seattlemonorail.com/
 
 EMP (Experience Music Project)
 http://www.empmuseum.org/
