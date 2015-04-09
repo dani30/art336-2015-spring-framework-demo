@@ -1,5 +1,5 @@
 $desktop: 1140px;
-$table: 768px;
+$tablet: 768px;
 $mobile: 550px;
 $gutter: 14px;
 $padding: 6px;
@@ -22,7 +22,7 @@ $padding: 6px;
     width: 100%;
 } 
 
-@media screen and (min-width: $table) {
+@media screen and (min-width: $tablet) {
     .row [class^="col-"] {
         margin-left: $gutter/2;
         margin-right: $gutter/2;
@@ -65,7 +65,7 @@ $padding: 6px;
     }
 }
 
-@media screen and (min-width: $table) {
+@media screen and (min-width: $tablet) {
     .row-no-gutter [class^="col-"] {
         //margin-left: $gutter/2;
         //margin-right: $gutter/2;
@@ -115,6 +115,12 @@ $padding: 6px;
 
 .outer .row:last-of-type [class^="col-"] {
     margin-bottom: 0;
+}
+
+.fixed {
+    position: fixed;
+    width: 100%;
+    z-index: 100;
 }
 
 .vcenter {
