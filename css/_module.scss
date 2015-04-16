@@ -22,6 +22,10 @@
     margin: 0;
 }
 
+.headline {
+    @include headline-font;
+}
+
 .banner-title h2 {
     font-size: 2em;
     margin: 0;
@@ -43,4 +47,6 @@ footer[role="contentinfo"] svg {
 
 .info-seattle, .info-link {
     background-color: purple; 
+    box-sizing: border-box;
+    padding: 1em; 
 }

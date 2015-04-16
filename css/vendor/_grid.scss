@@ -67,9 +67,11 @@ $padding: 6px;
 
 @media screen and (min-width: $tablet) {
     .row-no-gutter [class^="col-"] {
-        //margin-left: $gutter/2;
-        //margin-right: $gutter/2;
+        box-sizing: border-box;
+        padding-left: $gutter/2;
+        padding-left: $gutter/2;
     }
+    
     .row-no-gutter .col-1 {
         width: 8.333333333%;
     }
@@ -190,4 +192,28 @@ $padding: 6px;
     display: box;
     box-pack: center;
     box-align: center;
+}
+
+/* _grid.scss updates */
+
+/*
+.vcenter {
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-ms-flex-align: center;
+	-webkit-align-items: center;
+	-webkit-box-align: center;
+	align-items: center;
+}
+*/
+
+
+.vcenter {
+	display: table;
+}
+
+.vcenter-c {
+	display: table-cell;
+    vertical-align: middle;
 }
